@@ -235,6 +235,8 @@ def read_info(is_logging=False, is_save=False):
         if is_logging: print(error)
         return error
 
+    print(wechat_process)
+
     for process in wechat_process:
         tmp_rd = {}
 
